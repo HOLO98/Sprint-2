@@ -2,12 +2,12 @@
 
 ## 1.Install Database:
 
-1) Importar archivo db/dellilah.db en su administrador de base de datos 
+1) Importar archivo db/dellilah.db en su administrador de base de datos.
 
 db\delilla_resto.sql
 
 2) En el Archivo .env definir el nombre de las base de datos. 
-Por defecto su nombre es delilla_resto
+Por defecto su nombre es delilla_resto.
 
 DB_HOST=localhost
 DB_PORT=3306
@@ -19,22 +19,25 @@ MYSQL_DELILAH_DB_NAME=delilla_resto
 JWT_SECRET=clavesegura
 
 ## 2.Install Libraries:
+Instalar Librerias.
 
 npm i 
 
 ## 3.Start Server:
+Iniciar Servidor.
+
 bash
 
 npm run start
 
 ## 4.Swagger:
-Al iniciar el servidor, entrar al siguiente endpoint para usar la API
+Al iniciar el servidor, entrar al siguiente endpoint para usar la API.
 
 http://localhost:3030/api-docs
 
 ## 5.View Redis Commander:
-Para ver la memoria cache del sistema
-inicializar el comando para Utilizar :
+Para ver la memoria cache del sistema.
+inicializar el comando, para Utilizar.
 
 Redis
 
@@ -54,4 +57,6 @@ npm run rest
 
 ## GitHub:
 Repositorio en GitHub 
+
+https://github.com/HOLO98/Sprint-2.git
 
